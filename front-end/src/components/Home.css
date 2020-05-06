@@ -1,0 +1,34 @@
+/* DEFAULT */
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.IG_four{
+    display:flex;
+    justify-content: center;    
+}
+
+.IG_photo{
+    padding:1em;
+    max-height:55em;
+    max-width:55em;   
+}
+
+/* IPAD */
+/* @media only screen and (max-width: 600px) {
+    .IG_photo{
+        padding:1em;
+        max-height:55em;
+        max-width:55em;   
+    }
+    .IG_four{
+        display:flex;
+        justify-content: center;    
+    }
+
+  } */
+

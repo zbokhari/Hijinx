@@ -1,0 +1,149 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+    background-size: 40%; */
+    /* filter: grayscale(100%); */
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 30px;
+    
+
+}
+
+
+
+body{
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.9);
+    background-image: url("https://lh3.googleusercontent.com/Yz-HirAvmqVXXNLjrK1lfp0qyEJBgUAfcVL2TgLF37PwG5H59zyNpj5yLVoHqtiyKkHHHHg6G7jVNFmfjUL4AtErTvGg72LWqdzXhVSDs-JL1frsGhvOt86hlkh9-yfsN5MWDCeP_usgAX5UA4RsnmbUpkAEwt-ZM-zc1CrRIYQPr6fvJWDU4Ou4S0IR7IPWXImpA129N0qlK_WgKA0sEH1SUHofNgG2xuEC_HNbu2j80grcetOHRr_Kk3q1U46a78p8aShB61UKw4LUhuizRNTldGxCQyO9QZh-8TKp7LpLLEpsC8RdomkBydJGZkhqrVLQVXJ7XpTpSE1oPlvBJiTj4rvLxiz70hUTh9BjZ-OXfZS7x_bAY-pI6B4ImuYvbawHOgz6IEB9YeuX8wur3LUiVDFtmRTlBn3Y4izOdZRtNgH9AxhW8PbNSGmsM2wCMXzhFNyCUXXhdiZfjiEHWt1ud_h4bYB8gdYkYeASml0JrPyrlCvjs7I81rB8R80ruC9u3dPvf804LZ8D-FinannV3B_2uUsqh0dM6Ks7ks7sHw5qVafVRwcbryab3NXhvNdi0gdZRDl_eT1I8t3HYY9c6wSj7YUIKI0IIi45wM--VP7Z0_hU9TFIkd35gIxyKuZcr0WLL6ThKOjcIFEEI7cAjDbGqWWLaSr4-n65gHjKZ120ZBX-ry2KcSs=w661-h881-no");
+    background-size: 600px 600px;
+    
+    }
+.canvas {
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 100px 100px 0;
+    /* margin: 0px auto; */
+
+}
+
+.routes-container {
+    padding: 20px 50px;
+    
+
+    
+}
+
+
+
+.nav {
+    /* background-color: black; */
+    color: white;
+    border-radius: 30px;
+    justify-content: center;
+
+    
+
+}
+
+.nav-items {
+    display: flex;
+
+    }
+
+.item:hover {
+    text-decoration: none;
+    color:yellow;
+}
+
+.item {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    display: block; 
+
+    text-decoration: none;
+    color: white;
+    text-align:center;
+    
+     
+}
+
+
+.login-form {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.top {
+    padding-top: 3%;
+    color: whitesmoke !important;
+}
+
+h3 {
+    padding-top: 5%;
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    padding-left: 23%;
+}
+
+
+
+.currentProject {
+    height: 400px;
+    position: relative; 
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+
+
+}
+
+
+.IG_four {
+    position: relative;; 
+
+    
+}
+
+.IG_photo {
+
+    width: 296px;
+    height: 296px;
+    padding: 5%;
+    
+   
+}
+
+
+.parentSpacer{
+    padding-block-start: 110px;
+    padding-block-end: 110px;
+  }
+  
+
+/* footer css */
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap{
+    flex:1;
+}

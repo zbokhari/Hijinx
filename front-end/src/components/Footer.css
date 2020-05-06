@@ -1,0 +1,52 @@
+.footer {
+    /* background-color: black; */
+    color: white;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5% 0px 5%
+}
+
+.s-m-item:hover,
+.o-item:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+.s-m-item {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    display: block;
+
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.o-item {
+    cursor: pointer;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.social-media-icons,
+.other-icons {
+    list-style: none;
+    display: flex;
+}
+
+.other-icons {
+    justify-content: flex-start;
+}
+
+
+.social-media-icons {
+    justify-content: flex-end
+}
